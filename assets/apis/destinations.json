@@ -1,0 +1,28 @@
+[
+    {
+            "id": 1,
+            "title": "Century Hotel Doha",
+            "desc": "Century Hotel Dohaga tashrif buyuruvchilar uchun ajoyib tanlovdir. Bu narx va sifatning, qulaylik va qulaylikning yaxshisi, bu yerda qolishingizni juda yoqimli qilish uchun mo'ljallangan. Century oziq-ovqat mahsulotlaridan biri bo'lgan mehmonlar Dohaning eng diqqatga sazovor joydan biri bo'lgan Al Koot qal'asini (1,6 km) va Doha qal'asini (1,6 km) ko'rishlari mumkin.",
+            "image": "https://www.kayak.com/rimg/himg/f1/d3/ba/hotelsdotcom-402559-8dedb3f5_w-993959.jpg?width=2160&height=1215&crop=true&outputtype=webp"
+    },
+    {
+            "id": 2,
+            "title": "Maldivi",
+            "desc": "Turkuaz suvlari va toza oq qumli plyajlar jannati. Dam olish va suv osti tadqiqotlari uchun tropik boshpana.",
+            "image": "./assets/images/Dest-02.jpg"
+    },
+    {
+            "id": 3,
+            "title": "Dubay",
+            "desc": "Madinat Jumeirah Resortdagi uchta mulkdan biri Dar Al Masyaf kanallar orqali bir-biriga bog'langan an'anaviy arab yozgi uylariga o'xshash xonalar va lyukslardan iborat. Keng, marmar aksanli hammomlar tez-tez Amouage hojatxonalari bilan to'ldiriladi va xona imtiyozlari har kuni yangi mevalar va tungi shokoladlarni o'z ichiga oladi.",
+            "image": "https://media.cntravellerme.com/photos/64aeae94d0b00160765aef3d/1:1/w_1920%2Cc_limit/One-&-Only-The-Palm__2018_OneAndOnly_ThePalm_PoolsAndBeaches_Pools_AdultOnlyPool_HR.jpg"
+    },
+    {
+            "id": 4,
+            "title": "Ozarbayjon",
+            "desc": "Shaxsiy plyaj va marinani taklif qiluvchi ushbu 5 yulduzli mehmonxona Bibi-Heybatda joylashgan. Mehmonxona sohilda, Shirvonshohlar saroyi yaqinida, poytaxtning eng yaxshi tarixiy va madaniy diqqatga sazovor joylaridan 10 daqiqa uzoqlikda joylashgan. Mehmonxona shahardan uzoqda dam olishni istaganlar uchun juda mos keladi",
+            "image": "https://www.turpravda.com/otpimg/3/400x300/00/03/46/21/3462181.jpg"
+    }
+]
+ 
+

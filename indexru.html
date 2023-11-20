@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/svg+xml"
+      href="./assets/images/faviconLight.svg"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/svg+xml"
+      href="./assets/images/faviconDark.svg"
+      media="(prefers-color-scheme: dark)"
+    />
+    <!-- Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- JavaScript -->
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/js/scrollReveal.js"></script>
+    <script src="./assets/js/script.js" defer type="module"></script>
+    <title>GOLD TOUR</title>
+  </head>
+  <body>
+    <!-- ============= Header ============= -->
+    <header class="header">
+      <nav class="header__container container">
+        <ul class="header__links">
+          <li class="header__link"><a href="#home">Главное меню</a></li>
+          <li class="header__link"><a href="#about">О нас</a></li>
+        </ul>
+        <div class="header__logo">
+          <a href="./">
+            <img class="logo" src="./assets/images/Travelya-dark.png" alt="Travelya" />
+          </a>
+        </div>
+        <ul class="header__links">
+          <li class="header__link"><a href="#destinations">Адрес</a></li>
+          <li class="header__link"><a href="#blog">Путешествия</a></li>
+          <li class="header__link"><a href="#join">Присоединение</a></li>
+          <li class="header__link">
+            <select class="header__language" onchange="window.location.href = this.value;">
+                <option value="index.html">Uzb</option>
+                <option value="indexru.html">Rus</option>
+                <option value="indexin.html">Ing</option>
+            </select>
+            
+          </li>
+        </ul>
+        <ul class="header__links-mobile">
+          <i class="ri-close-line close-icon"> </i>
+          <li class="header__link header__link-mobile">
+            <a href="#home">Главное меню</a>
+          </li>
+          <li class="header__link header__link-mobile">
+            <a href="#about">О нас</a>
+          </li>
+          <li class="header__link header__link-mobile">
+            <a href="#blog">Путешествия</a>
+          </li>
+          <li class="header__link header__link-mobile">
+            <a href="#destinations">Адрес</a>
+          </li>
+          <li class="header__link header__link-mobile">
+            <a href="#join">Присоединение</a>
+          </li>
+          <li class="header__link header__link-mobile">
+            <select class="header__language" onchange="window.location.href = this.value;">
+                <option value="index.html">Uzb</option>
+                <option value="indexru.html">Rus</option>
+                <option value="indexin.html">Ing</option>
+            </select>
+          </li>
+        </ul>
+        <div class="header__menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ============= Home Section ============= -->
+    <section class="home" id="home">
+      <div class="home__content">
+        <div class="home__slider">
+          <div class="home__slider-wrapper">
+            <div class="home__slide active">
+              <div class="home__slide__image">
+                <img
+                  src="https://a.cdn-hotels.com/gdcs/production173/d841/3371da00-bbc8-408e-9769-ca365f03fadd.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+                  alt=""
+                />
+              </div>
+              <div class="home__slide__text">
+                <div class="heading">
+                  <h1>
+                    ЧУДЕСА КАТАРА <br>
+                    🇶🇦- Летим в бархатный сезон
+                  </h1>
+                </div>
+                <div class="text">
+                    Готовы ли вы открыть для себя самые привлекательные места мира?
+                    GOLD TOUR — ваши ворота в этот мир
+                    ваш лучший партнер для волшебных впечатлений и волнений
+                    пейзажи.
+                </div>
+              </div>
+            </div>
+            <div class="home__slide">
+              <div class="home__slide__image">
+                <img
+                  src="https://a.cdn-hotels.com/gdcs/production130/d916/313e6bab-c4d1-4a33-a454-f3c0d00c0a2b.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+                  alt=""
+                />
+              </div>
+              <div class="home__slide__text">
+                <div class="heading">
+                  <h1>
+                    Отправляйтесь в путь <br>
+                    Незабываемые приключения
+                  </h1>
+                </div>
+                <div class="text">
+                    С оживленных улиц городов с дорогами
+                    к тихим берегам экзотических островов
+                    секрет, который наши путешественники ждут, чтобы вы открыли
+                    драгоценные камни и достопримечательности, которые стоит увидеть
+                    ведет к достопримечательностям.
+                </div>
+              </div>
+            </div>
+            <div class="home__slide">
+              <div class="home__slide__image">
+                <img
+                  src="https://cdn2.tu-tu.ru/image/pagetree_node_data/2/ba18db18dd9985885bef28c0cc9be7d1/"
+                  alt=""
+                />
+              </div>
+              <div class="home__slide__text">
+                <div class="heading">
+                  <h1>
+                    Вдохновляющий<br>
+                    Истории путешествий
+                  </h1>
+                </div>
+                <div class="text">
+                    Поделились путешественники со всего мира
+                    Погрузитесь в интересные истории путешествий. Их опыт
+                    пусть твои приключения горят и твои
+                    вдохновить на незабываемое путешествие.
+                </div>
+              </div>
+            </div>
+            <div class="home__slide">
+              <div class="home__slide__image">
+                <img
+                  src="https://happy-travel.kz/hottours/iz-almaty/foto/11.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="home__slide__text">
+                <div class="heading">
+                  <h1>
+                    Ваш<br>
+                    Приключения ждут
+                  </h1>
+                </div>
+                <div class="text">
+                    Начните свое путешествие с GOLD TOUR сегодня. Твой собственный
+                    дай волю своему внутреннему исследователю, и мир станет твоей игрой
+                    иметь свое пространство. Приключения в один клик
+                    на расстоянии.
+                </div>
+              </div>
+            </div>
+            <div class="home__slide">
+              <div class="home__slide__image">
+                <img
+                  src="https://nownownow.ru/wp-content/uploads/2022/07/wael-hneini-qjkea9n3yn8-unsplash-scaled-e1658215731838.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="home__slide__text">
+                <div class="heading">
+                  <h1>
+                    с ЗОЛОТЫМ ТУРОМ <br>
+                    Приключения ждут
+                  </h1>
+                </div>
+                <div class="text">
+                    Дайте волю своему любопытству и приключениям
+                    быть гидом. GOLD TOUR – ваш мир открытий
+                    это вход, где каждое место назначения говорит
+                    уникальная история, ожидающая своего открытия.
+                </div>
+              </div>
+            </div>
+            <div class="home__slide">
+              <div class="home__slide__image">
+                <img
+                  src="https://media.kf.expert/cms/serdcze-dubaya-rajon-downtown-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="home__slide__text">
+                <div class="heading">
+                  <h1>
+                    От границ <br>
+                    путешествовать за границу
+                  </h1>
+                </div>
+                <div class="text">
+                    Выйдите за рамки привычного и окажитесь в мире безграничных возможностей.
+                    осмелюсь шагнуть. ЗОЛОТОЙ ТУР необыкновенный
+                    культуры, открывает двери прекрасным чудесам и
+                    интимные встречи, которые изменят вас навсегда.
+                </div>
+              </div>
+            </div>
+            <div class="home__slide">
+              <div class="home__slide__image">
+                <img
+                  src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRPAael22jpOS6z86MmmevyWNQikcZvyAJ0OdP8mDHNepk7-Uih66uzgcrLMufRSMRdsZK3i1xfa0tXKY8k53XDgBxieOTMXEEoSIiwwQ"
+                  alt=""
+                />
+              </div>
+              <div class="home__slide__text">
+                <div class="heading">
+                  <h1>
+                    Мечты <br>
+                    куда он летит?
+                  </h1>
+                </div>
+                <div class="text">
+                    Закрой глаза, мечтай по-крупному, и мы и есть эти мечты.
+                    воплотить это в жизнь. ЗОЛОТОЙ ТУР тебе больше всего в мире
+                    приглашает вас исследовать вещи и отправиться в полет - это увлекательно
+                    пейзажи и воспоминания, которые будут вдохновлять навсегда.
+                </div>
+              </div>
+            </div>
+            <div class="home__slide">
+              <div class="home__slide__image">
+                <img
+                  src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSdgNwp-61jCEBrgcYJ1mcMacBv0VX3Yzl4zSnAMieZFsKl7PFU1ITCkJq37JNLZPNEH0aSmxTAhlurA6gfwdDRjv74qDjPU-56Lx--DQ"
+                  alt=""
+                />
+              </div>
+              <div class="home__slide__text">
+                <div class="heading">
+                  <h1>
+                    Мир <br>
+                    откройте для себя его красоту
+                  </h1>
+                </div>
+                <div class="text">
+                    Окунитесь в мир волшебства и чудес. GOLD TOUR доставит вас к воде
+                    с любым опытом, предназначенным для погружения
+                    приглашает вас открыть для себя красоту нашей планеты
+                    необычный.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Thumbnails -->
+        <div class="home__thumbnails swiper">
+          <div class="home__thumbnails-wrapper swiper-wrapper">
+            <div class="home__thumbnail swiper-slide">
+              <div class="home__thumbnail__image">
+                <img
+                  src="https://a.cdn-hotels.com/gdcs/production173/d841/3371da00-bbc8-408e-9769-ca365f03fadd.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="home__thumbnail swiper-slide">
+              <div class="home__thumbnail__image">
+                <img
+                  src="https://a.cdn-hotels.com/gdcs/production130/d916/313e6bab-c4d1-4a33-a454-f3c0d00c0a2b.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="home__thumbnail swiper-slide">
+              <div class="home__thumbnail__image">
+                <img
+                  src="https://cdn2.tu-tu.ru/image/pagetree_node_data/2/ba18db18dd9985885bef28c0cc9be7d1/"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="home__thumbnail swiper-slide">
+              <div class="home__thumbnail__image">
+                <img
+                  src="https://happy-travel.kz/hottours/iz-almaty/foto/11.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="home__thumbnail swiper-slide">
+              <div class="home__thumbnail__image">
+                <img
+                  src="https://nownownow.ru/wp-content/uploads/2022/07/wael-hneini-qjkea9n3yn8-unsplash-scaled-e1658215731838.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="home__thumbnail swiper-slide">
+              <div class="home__thumbnail__image">
+                <img
+                  src="https://media.kf.expert/cms/serdcze-dubaya-rajon-downtown-1.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="home__thumbnail swiper-slide">
+              <div class="home__thumbnail__image">
+                <img
+                  src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRPAael22jpOS6z86MmmevyWNQikcZvyAJ0OdP8mDHNepk7-Uih66uzgcrLMufRSMRdsZK3i1xfa0tXKY8k53XDgBxieOTMXEEoSIiwwQ"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="home__thumbnail swiper-slide">
+              <div class="home__thumbnail__image">
+                <img
+                  src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSdgNwp-61jCEBrgcYJ1mcMacBv0VX3Yzl4zSnAMieZFsKl7PFU1ITCkJq37JNLZPNEH0aSmxTAhlurA6gfwdDRjv74qDjPU-56Lx--DQ"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#about">
+          <button class="home__btn cta-btn primary-btn">Начните исследование</button>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============= About Section ============= -->
+    <section class="about" id="about">
+      <div class="about__container container">
+        <div class="about__content">
+          <div class="about__text">
+            <div class="heading">
+              <h1>
+                ЗОЛОТОЙ ТУР <br>
+                обнаружить с
+              </h1>
+            </div>
+            <div class="text">
+              <p>
+                Каждое направление имеет свое очарование и мы ощущаем его в полной мере.
+                мы здесь, чтобы убедиться, что вы это сделаете. Наш страстный
+                Наша туристическая команда позаботится о том, чтобы ваше путешествие прошло гладко.
+                и самые глубокие советы, которые помогут вам сделать незабываемые и практичные
+                даем советы и искренние рекомендации.
+              </p>
+            </div>
+          </div>
+          <div class="about__image">
+            <img
+              src="https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTg5NDYyOTYwNTg4OTg5NzAy/visit-dubai.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <a href="#blog">
+          <button class="about__btn primary-btn cta-btn">
+            Начните исследование
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============= Destinations Section ============= -->
+    <section class="destinations" id="destinations">
+      <div class="destinations__container container">
+        <div class="destinations__content">
+          <div class="destinations__slider swiper">
+            <div class="destinations__slider-wrapper swiper-wrapper"></div>
+          </div>
+          <div class="destinations__text"></div>
+          <div class="destinations__bg"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= Blog Section ============= -->
+    <section class="blogs" id="blog">
+      <div class="blogs__container container">
+        <h2 class="blog__sayozlar">отмели </h2>
+        <div class="blogs__content">
+          <div class="blog">
+            <p class="blog__manzil">Катар</p>
+            <div class="blog__image">
+              <img
+              src="https://a.cdn-hotels.com/gdcs/production173/d841/3371da00-bbc8-408e-9769-ca365f03fadd.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+              alt=""
+              />
+            </div>
+            <div class="blog__title">
+              <a href="qatarru.html">узнать больше</a>
+            </div>
+          </div>
+          <div class="blog">
+            <p class="blog__manzil">Мальдивы</p>
+            <div class="blog__image">
+              <img
+                src="https://cdn2.tu-tu.ru/image/pagetree_node_data/2/ba18db18dd9985885bef28c0cc9be7d1/"
+                alt=""
+              />
+            </div>
+            <div class="blog__title">
+              <a href="maldiviru.html">узнать больше</a>
+            </div>
+          </div>
+          <div class="blog">
+            <p class="blog__manzil">Дубай</p>
+            <div class="blog__image">
+              <img
+                src="https://nownownow.ru/wp-content/uploads/2022/07/wael-hneini-qjkea9n3yn8-unsplash-scaled-e1658215731838.jpg"
+                alt=""
+              />
+            </div>
+            <div class="blog__title">
+              <a href="dubayru.html">узнать больше</a>
+            </div>
+          </div>
+          <div class="blog">
+            <p class="blog__manzil">Азербайджан</p>
+            <div class="blog__image">
+              <img
+                src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRPAael22jpOS6z86MmmevyWNQikcZvyAJ0OdP8mDHNepk7-Uih66uzgcrLMufRSMRdsZK3i1xfa0tXKY8k53XDgBxieOTMXEEoSIiwwQ"
+                alt=""
+              />
+            </div>
+            <div class="blog__title">
+              <a href="ozarbayjonru.html">узнать больше</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= Join Section ============= -->
+    <section class="join" id="join">
+      <div class="join__container container">
+        <div class="join__content">
+          <div class="join__title">
+            <h1>
+                Отправьтесь в путешествие открытий:<br>
+                Присоединяйся сейчас
+            </h1>
+          </div>
+          <form class="form" autocomplete="off">
+            <input
+              type="text"
+              class="form__input"
+              id="email"
+              placeholder="Enter your email"
+            />
+            <button class="form__btn cta-btn primary-btn">
+                Присоединяйся сейчас
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= Footer ============= -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__content">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <a href="#home">
+                <img class="footerlogo" src="./assets/images/Travelya-dark.png" alt="Travelya" />
+              </a>
+            </div>
+            <div class="footer__description">
+              <p>Исследуйте мир с GOLD TOUR.</p>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="footer__title">
+              <h3>Company</h3>
+            </div>
+            <ul class="footer__links">
+              <li class="footer__link"><a href="#home">Домашняя страница</a></li>
+              <li class="footer__link"><a href="#about">О нас</a></li>
+              <li class="footer__link">
+                <a href="#destinations">Адреса</a>
+              </li>
+              <li class="footer__link"><a href="#blog">Путешествия</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__col">
+            <div class="footer__title">
+              <h3>Follow Us</h3>
+            </div>
+            <ul class="footer__links social-media">
+              <li class="footer__link">
+                <a href="https://www.facebook.com/"
+                  ><i class="ri-facebook-circle-line"></i
+                ></a>
+              </li>
+              <li class="footer__link">
+                <a href="https://www.instagram.com/goldtour.uz/"
+                  ><i class="ri-instagram-line"></i
+                ></a>
+              </li>
+              <li class="footer__link">
+                <a href="https://web.telegram.org/k/"
+                  ><i class="ri-telegram-line"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============= Scroll Up Button ============= -->
+    <button class="scroll-up primary-btn">
+      <i class="ri-arrow-up-line"></i>
+    </button>
+  </body>
+</html>
